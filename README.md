@@ -15,3 +15,10 @@
 ### 11 mkdir -p lemon/child/neseted/ : creating nested folders in one line.
 ### 12 ctrl + D : to close terminal.
 
+### 13. Every cmnd/prgrm has three channel
+    STDIN --> 0 (file_discripter)
+    STDOUT --> 1
+    STDERR --> 2
+    
+    ex lemon 2>> err.txt //output the error to err.txt
+

@@ -31,3 +31,4 @@
             
         //  Now "d" specify delimilator i.e ":" . cut cmnd seperate the o/p in two f1 contaning portion before ":" and f2 containg 
             portion after ":".
+### 16. apt search whatever : search packages similar to keyword you enter after "search".

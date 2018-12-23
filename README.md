@@ -22,4 +22,12 @@
     
     ex lemon 2>> err.txt //output the error to err.txt
 
-### 14.
+### 14. ps aux | less : show the snapshot of running process.
+### 15. cat key-value(filename) | cut -d: -f2
+        ex: key-value file: 
+            name : coderOO7
+            sex : male
+            age : 22
+            
+        //  Now "d" specify delimilator i.e ":" . cut cmnd seperate the o/p in two f1 contaning portion before ":" and f2 containg 
+            portion after ":".

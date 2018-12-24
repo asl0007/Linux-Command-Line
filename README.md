@@ -51,9 +51,25 @@
         https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
         
  ### 20 tail /etc/shadow: store the passwd of user-account in hash.
-        
+        https://www.digitalocean.com/community/tutorials/how-to-use-passwd-and-adduser-to-manage-passwords-on-a-linux-vps
         
  
  ### 21 which package-name: to find the location of package.
  
- ### 22 adduser  : 
+ ### 22 adduser username : it run pre-defined perScript which automatically create additional attributes..
+        //Other command is : 
+        useradd -m -d /home/coderoo7 -s /bin/bash
+        -m ---> create home directory
+        -d ---> directory path
+        -s ---> path of your shell
+        
+ ### 23 deluser username : delete the user
+        even after deleting the user the home directory contain the username Folder...we have to delete it manually.
+ 
+ ### 24 usermod -L username : it lock the passwd means user can't login(create '!' symbol in passwd place).
+ ### 25 usermod -U username : it enable the password login. 
+ 
+ ### 26 echo $SHELL :  to know  the shell you are using.
+ ### 27 echo $TERM : to know terminal you are using.
+ 
+ ### 28 

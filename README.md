@@ -50,3 +50,6 @@
  ### 19 tail /etc/passwd:
  ### 20 tail /etc/shadow:
  
+ ### 21 which package-name: to find the location of package.
+ 
+ ### 22 

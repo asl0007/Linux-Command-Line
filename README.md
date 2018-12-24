@@ -58,10 +58,11 @@
  
  ### 22 adduser username : it run pre-defined perScript which automatically create additional attributes..
         //Other command is : 
-        useradd -m -d /home/coderoo7 -s /bin/bash
+        useradd -m -d /home/coderoo7 -s /bin/bash coderoo7
         -m ---> create home directory
-        -d ---> directory path
+        -d ---> user-directory path
         -s ---> path of your shell
+        coderoo7 ---> userName
         
  ### 23 deluser username : delete the user
         even after deleting the user the home directory contain the username Folder...we have to delete it manually.

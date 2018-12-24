@@ -64,7 +64,7 @@
         -s ---> path of your shell
         coderoo7 ---> userName
         
- ### 23 deluser username : delete the user
+ ### 23 userdel username : delete the user
         even after deleting the user the home directory contain the username Folder...we have to delete it manually.
  
  ### 24 usermod -L username : it lock the passwd means user can't login(create '!' symbol in passwd place).

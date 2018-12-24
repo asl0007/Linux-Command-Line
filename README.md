@@ -45,4 +45,8 @@
         ls -l
         aim.txt rwxr_xr__(default new permission)
         
+ ### 18 sudo su -i : root mode 
+ 
+ ### 19 tail /etc/passwd:
+ ### 20 tail /etc/shadow:
  

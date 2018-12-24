@@ -1,6 +1,6 @@
 # Linux-Command-Line
 
-## [My own Command line practicerm]
+## [My own Command line practice]
 
 ### 1. ln -s fileName pointerName : create symbolic link(pointer to file).
 ### 2. init 0 ,poweroff : shutdown
@@ -29,6 +29,20 @@
             sex : male
             age : 22
             
-        //  Now "d" specify delimilator i.e ":" . cut cmnd seperate the o/p in two f1 contaning portion before ":" and f2 containg 
+        //  Now "d" specify delimilator i.e ":" . cut cmnd seperate the o/p in two fields f1 contaning portion before ":" and f2 containg 
             portion after ":".
 ### 16. apt search whatever : search packages similar to keyword you enter after "search".
+
+### 17 sudo nano /etc/login.defs : it allow to change defalult file permissions.
+        ex: aim.txt (-rwxr_xr_x--->by default file permissions)
+        
+        step1--now enter above command .
+        step2-- search for keyword UMASK
+        step3-- UMASK 024 (these get substract. 0-->rwx, 2-->rx, 4-->r)
+        step4-- save
+        
+        touch lemon.txt
+        ls -l
+        aim.txt rwxr_xr__(default new permission)
+        
+ 

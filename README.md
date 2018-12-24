@@ -47,9 +47,13 @@
         
  ### 18 sudo su -i : root mode 
  
- ### 19 tail /etc/passwd:
- ### 20 tail /etc/shadow:
+ ### 19 tail /etc/passwd: list of all system-accounts and user-account
+        https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/
+        
+ ### 20 tail /etc/shadow: store the passwd of user-account in hash.
+        
+        
  
  ### 21 which package-name: to find the location of package.
  
- ### 22 
+ ### 22 adduser  : 

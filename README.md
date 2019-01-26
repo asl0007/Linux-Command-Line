@@ -73,4 +73,5 @@
  ### 26 echo $SHELL :  to know  the shell you are using.
  ### 27 echo $TERM : to know terminal you are using.
  
- ### 28 
+ ### 28 dbg ./.a.out any.c :debugging mode for the c file whose name is any.c 
+ 
